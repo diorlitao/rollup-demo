@@ -1,0 +1,14 @@
+{
+  "source": {
+    "include": ["src"],
+    "exclude": ["dist"],
+    "includePattern": ".+\\.js(doc)?$",
+    "excludePattern": "(^|\\/|\\\\)_"
+  },
+  "opts": {
+    "destination": "./doc/",
+    "recurse": true,
+    "template": "node_modules/docdash",
+    "verbose": true
+  }
+}
